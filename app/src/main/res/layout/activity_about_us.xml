@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="@drawable/logo1">
+
+
+    <TextView
+        android:id="@+id/slogan_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_below="@+id/slogan_aboutus"
+        android:layout_marginTop="10dp"
+        android:text="This is an eCommerce Application of AS Provision Store called as DailyMart.This application helps user to purchase the items by selecting item present in the category and making the shipment by giving the address"
+        android:textColor="@color/text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Copyright: Aishwarya and Deeksha "
+        android:textColor="@color/text"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

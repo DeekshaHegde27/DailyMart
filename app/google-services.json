@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "146762329434",
+    "firebase_url": "https://dailymart-4b063-default-rtdb.firebaseio.com",
+    "project_id": "dailymart-4b063",
+    "storage_bucket": "dailymart-4b063.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146762329434:android:e66af2a7e8cfb1da299763",
+        "android_client_info": {
+          "package_name": "com.comptech.login.dailymart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146762329434-roqs8c9ifghl6vfcc76vf2und96ksgcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIeQBP9_jWepqsw4hbF2zl1qGWOQXb_PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146762329434-roqs8c9ifghl6vfcc76vf2und96ksgcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

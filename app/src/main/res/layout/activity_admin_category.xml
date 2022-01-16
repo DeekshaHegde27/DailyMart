@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/chocolate"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/chocolate" />
+
+        <ImageView
+            android:id="@+id/shampoos"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/shampoo" />
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/fruit" />
+
+        <ImageView
+            android:id="@+id/vegetables"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/vegetable" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/soaps"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/soap" />
+
+        <ImageView
+            android:id="@+id/rice"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/rice" />
+
+        <ImageView
+            android:id="@+id/biscuits"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/biscuit" />
+
+        <ImageView
+            android:id="@+id/milks"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/milk" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="213dp"
+        android:layout_height="86dp"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pads"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/pad" />
+
+        <ImageView
+            android:id="@+id/juices"
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/juice" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check new Orders"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
